@@ -12,7 +12,7 @@
 - [ ] 空岛插件(搭配组队及保护)
 
 
-## [组队API](docs/TeamAPI.md)
+## [组队API](TeamAPI.md)
 - [x] 创建队伍
 - [x] 删除队伍
 - [x] 转让队伍
@@ -23,7 +23,7 @@
 - [x] 队伍内聊天
 - [x] 功能测试脚本
 
-##  [保护API](docs/ProtectAPI.md)
+##  [保护API](ProtectAPI.md)
 - [x] 监听事件,权限细分
 - [x] 权限列表 ：
 
@@ -65,13 +65,13 @@
 | 伤害或打击怪物或动物 | ATTACK_CALLBACK |
 |TNT 或其他爆炸保护|TNT_CALLBACK|
 
-##  [经济API](docs/EconomyAPI.md)
+##  [经济API](EconomyAPI.md)
 - [x] 获取经济
 - [x] 设置经济
 - [x] 添加经济
 - [x] 扣除经济
 
-##  [消息API](docs/MessageAPI.md)
+##  [消息API](MessageAPI.md)
 - [x] 在线消息发送
 - [x] 离线消息转存
 - [x] 离线消息发送
