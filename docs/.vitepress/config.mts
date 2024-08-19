@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LxBox文档",
   description: "一个基于LSE-nodejs的空岛核心API",
+  base: '/LxBoxDoc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
