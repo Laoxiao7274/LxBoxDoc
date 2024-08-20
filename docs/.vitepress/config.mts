@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import mdTaskLisst from 'markdown-it-task-lists'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,7 +7,9 @@ export default defineConfig({
   description: "一个基于LSE-nodejs的空岛核心API",
   base: '/LxBoxDoc/',
   markdown: {
-    linkify: true
+    config: md => {
+      md.use(mdTaskLisst)
+    }
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
