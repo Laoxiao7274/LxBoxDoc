@@ -33,7 +33,8 @@ export default defineConfig({
           { text: '组队 API', link: '/API/TeamAPI.md' },
           { text: '保护 API', link: '/API/ProtectAPI.md' },
           { text: '经济 API', link: '/API/EconomyAPI.md' },
-          { text: '消息 API', link: '/API/MessageAPI.md' }
+          { text: '消息 API', link: '/API/MessageAPI.md' },
+          { text: '结构 API', link: '/API/StructureAPI.md' }
         ]
       }
     ],
